@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300, 300i, 400, 400i, 700, 700i);
+    a, body, p {
+    color: #888;
+}
+.btn, body, p {
+    font-size: 13px;
+}
+.category-item img, .product-header img, a, a:hover {
+    transition-duration: .4s;
+}
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 25px;
+}
+
+
+.bg-success {
+    background: #000!important;
+}
+.bg-dark {
+    background: #095c91!important;
+}
+.btn-secondary {
+    background: #095c91!important;
+}
+.text-secondary {
+    color: #095c91!important;
+}
+.btn {
+    border: none;
+    border-radius: 2px!important;
+}
+.checkout-step .card .card-header .btn {
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 9px 0;
+    text-align: left;
+    text-decoration: none;
+    width: 100%}
+.checkout-step .card .card-header .btn .number {
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 700;
+    height: 34px;
+    line-height: 28px;
+    margin: 0 8px 0 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: 0;
+    width: 34px;
+}
+.checkout-step .card .card-header .btn.collapsed .number {
+    border: 2px solid #095c91;
+    color: #095c91;
+}
+.checkout-step .card .card-header .btn .number {
+    border: 2px solid #095c91;
+    color: #095c91;
+}
+.navbar-toggler {
+    background: #fff!important;
+    border: none;
+    border-radius: 2px;
+    margin: 0 16px 0 0;
+    padding: 6px 9px;
+}
+
+.main-nav-right .btn .mdi {
+    font-size: 17px!important;
+    line-height: unset!important;
+    margin: 0;
+    vertical-align: initial!important;
+}
+}@media (min-width:768px) and (max-width:991.98px) {
+    .location-top, .login-modal-left {
+    display: none;
+}
+.navbar-toggler {
+    background: #fff!important;
+    border: none;
+    border-radius: 2px;
+    margin: 0 16px 0 0;
+    padding: 6px 9px;
+}
+
+
+
